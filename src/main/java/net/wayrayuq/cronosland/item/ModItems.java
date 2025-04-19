@@ -15,7 +15,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MARIPOSA_ORO = ITEMS.register("mariposa_oro",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MARIPOSA_HIERRO = ITEMS.register("mariposa_hierro",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MARIPOSA_COBRE = ITEMS.register("mariposa_cobre",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MANZANA_PERFORADA = ITEMS.register("manzana_perforada",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){

@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.wayrayuq.cronosland.block.ModBlocks;
 import net.wayrayuq.cronosland.item.ModCreativeModTabs;
 import net.wayrayuq.cronosland.item.ModItems;
 import org.slf4j.Logger;
@@ -32,6 +33,7 @@ public class Cronosland {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

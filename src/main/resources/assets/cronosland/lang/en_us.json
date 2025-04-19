@@ -1,7 +1,11 @@
 {
   "item.cronosland.mariposa_diamante": "Diamond Butterfly",
   "item.cronosland.mariposa_oro": "Gold Butterfly",
+  "item.cronosland.mariposa_hierro": "Iron Butterfly",
   "item.cronosland.mariposa_cobre": "Copper Butterfly",
+  "item.cronosland.manzana_perforada": "Pierced Apple",
+
+  "block.cronosland.libreria": "Library",
 
   "creativetab.cronosland_tab": "Cronosland"
 }
